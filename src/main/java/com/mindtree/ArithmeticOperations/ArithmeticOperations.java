@@ -62,7 +62,7 @@ public class ArithmeticOperations
     		quotient = firstNum / secondNum;
     	}
     	catch(ArithmeticException ex) {
-    		System.out.println ("Can't be divided by Zero" + ex);
+    		System.out.println ("Can't be  divided by Zero" + ex);
     	}
     	return quotient;
     }
