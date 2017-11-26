@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('clean') {
+    stage('StepOne') {
       steps {
-        bat 'mvn celan'
+        bat 'mvn clean'
       }
     }
   }
